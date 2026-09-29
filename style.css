@@ -12,6 +12,12 @@ body {
     border-radius: 5px;
 }
 
+.case2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .screen {
     display: flex;
     justify-content: flex-end;
@@ -39,14 +45,21 @@ body {
     flex-wrap: wrap;
     max-width: 200px;
     gap: 20px;
+    margin-left: 15px;
 }
 
 .ebtns {
     display: flex;
     flex-wrap: wrap;
-    max-width: 120px;
+    max-width: 150px;
     max-height: 100px;
-    
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.mscBtns {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -58,7 +71,7 @@ body {
     width: 120px;
 }
 
-#undoBtn {
+#backBtn {
     width: 120px;
     margin-top: 20px;
 }
