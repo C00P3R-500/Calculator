@@ -1,0 +1,73 @@
+body {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.case {
+    background-color: black;
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: lightgray;
+    height: 175px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#input {
+    margin: 5px;
+    font-size: 50px;
+}
+
+.btns {
+    display: flex;
+    margin-top: 30px;
+    gap: 0px;
+    justify-content: space-around;
+}
+
+.nbtns {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 20px;
+}
+
+.ebtns {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 120px;
+    max-height: 100px;
+    
+    gap: 10px;
+}
+
+#equalBtn {
+    width: 120px;
+}
+
+#clearBtn {
+    width: 120px;
+}
+
+#undoBtn {
+    width: 120px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(69, 69, 126);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: transparent;
+}
