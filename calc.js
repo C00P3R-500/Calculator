@@ -4,8 +4,8 @@ const iBox = document.querySelector("#input");
 
 let add = (a, b) => a + b;
 let subtract = (a, b) => a - b;
-let multiply = (a, b) => a * b;
-let divide = (a, b) => a / b;
+let multiply = (a, b) => Math.round(1000 * (a * b)) / 1000;
+let divide = (a, b) => Math.round(1000 * (a / b)) / 1000;
 
 let userNum = 0;
 let userOp = 0;
